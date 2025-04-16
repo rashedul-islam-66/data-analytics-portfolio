@@ -1,0 +1,46 @@
+📌 Project Name: Retail Sales Analysis
+1️⃣ Goal:
+The goal of this project is to analyze sales data to identify trends, customer behavior, and product performance. This will help a retail business understand what drives revenue and make data-driven decisions.
+
+2️⃣ Key Questions:
+Sales Trends:
+
+What are the total sales over time? Are there seasonal patterns?
+
+Customer Insights:
+
+Who are the top 5 customers based on total spending?
+
+How frequently do customers make purchases?
+
+Product Performance:
+
+What are the top 5 best-selling products?
+
+Which products have the lowest sales?
+
+Revenue Analysis:
+
+What is the average order value?
+
+How does the quantity of products sold affect total revenue?
+
+3️⃣ Approach & Methods:
+Data Cleaning: Handle missing values (if any) and format dates properly.
+
+SQL Queries:
+
+GROUP BY and SUM() to find total sales per product.
+
+HAVING to filter top customers based on spending.
+
+ORDER BY to rank best-selling products.
+
+Date Functions (YEAR(), MONTH()) to analyze trends over time.
+
+4️⃣ Expected Outcomes:
+A report showing:
+✅ Total revenue over time (sales trends).
+✅ Top 5 customers with highest spending.
+✅ Best-selling and least-selling products.
+✅ Insights into the average order value.

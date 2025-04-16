@@ -1,0 +1,20 @@
+Data Cleaning Steps:
+1. Check for Missing/Null Values:
+
+Identify missing or null values in critical columns (e.g., quantity, price_per_unit, total_amount) and handle them by either imputing values, removing rows, or flagging them for further investigation.
+
+2. Check for Duplicates:
+
+Detect and remove any duplicate entries in the dataset, ensuring that each sale or record is unique.
+
+3. Validate Data Types:
+
+Ensure that the data types for each column are appropriate for analysis (e.g., quantity and price_per_unit should be numeric, date should be in date format).
+
+4. Verify Calculated Columns:
+
+Double-check calculated columns like total_amount, ensuring they are correctly derived using the formula total_amount = quantity × price_per_unit. This ensures the accuracy of derived fields.
+
+5. Look for Outliers:
+
+Identify outliers such as negative or excessively large values in quantity, price_per_unit, or total_amount, which may indicate data entry errors or anomalies.
